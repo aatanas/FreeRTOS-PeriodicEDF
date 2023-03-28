@@ -1,5 +1,5 @@
 # PeriodicFreeRTOS
-Modification of the FreeRTOS (Arduino library) operating system scheduler, so that it supports periodic tasks, which have their own specific parameters.
+Modification of the Arduino FreeRTOS operating system scheduler, so that it supports periodic tasks, which have their own specific parameters.
 
 Periodic tasks can be started at any point in time, and have clearly defined duration and period. After the period expires, the task is started again.
 
