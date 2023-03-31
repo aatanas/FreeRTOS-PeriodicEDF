@@ -9,7 +9,7 @@ Tasks do not call each other, the scheduler puts the task back into execution.
 
 The task function is written to terminate (return) after completing its work to be done within a period.
 
-The [Earliest Deadline First](https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling) algorithm is used to schedule periodic tasks. In EDF, the priority of the task is determined dynamically, and depends on the absolute time of the expiration of the period among the currently active tasks.
+The [*Earliest Deadline First*](https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling) algorithm is used to schedule periodic tasks. In EDF, the priority of the task is determined dynamically, and depends on the absolute time of the expiration of the period among the currently active tasks.
 The task with the shortest absolute deadline is the first to be executed.
 
 Each task takes a parameter that will affect how long the task takes.
